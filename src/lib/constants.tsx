@@ -1,12 +1,12 @@
 import { Github, Linkedin, Mail, MapPin, Phone, Twitter, Globe } from "lucide-react"
 
 export const PERSONAL_INFO = {
-  name: "Alex Chen",
-  title: "Embedded WiFi Linux Firmware Developer",
+  name: "Selva Vignesh",
+  title: "Embedded WiFi Developer",
   description: "Specializing in low-level firmware development, WiFi protocol implementation, and Linux kernel optimization. Passionate about creating robust embedded systems that power the connected world.",
-  email: "alex.chen@example.com",
-  phone: "+1 (555) 123-4567",
-  location: "San Francisco, CA",
+  email: "selvavignesh404@gmail.com",
+  phone: "+91 6382 645824",
+  location: "Chennai, India",
 }
 
 export const SKILLS = [

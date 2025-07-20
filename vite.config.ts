@@ -10,7 +10,7 @@ export default defineConfig({
     },
   },
   root: ".",
-  base: "./", // Use relative paths for GitHub Pages
+  base: "/Portfolio/", // Use relative paths for GitHub Pages
   build: {
     outDir: "dist",
     emptyOutDir: true,
