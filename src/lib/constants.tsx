@@ -56,19 +56,19 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
-    title: "High-Performance WiFi 6E Router",
-    description: "Developed custom firmware for a tri-band WiFi 6E router with advanced QoS, mesh capabilities, and enterprise-grade security features. Achieved 40% performance improvement over stock firmware.",
+    title: "Automatic Leg Before Wicket (LBW) Detection",
+    description: "Automatic LBW detection using Image Processing and Computer vision techniques.",
     image: "https://images.unsplash.com/photo-1606904825846-647eb07f5be2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
-    tags: ["C/C++", "OpenWRT", "802.11ax", "Mesh"],
-    duration: "2023 - 6 months",
+    tags: ["AI", "Python", "Computer Vision", "Image Processing"],
+    duration: "2022 - 6 months",
     color: "electric-blue"
   },
   {
-    title: "Industrial IoT Gateway",
-    description: "Built a rugged IoT gateway for industrial environments with multi-protocol support, edge computing capabilities, and secure cloud connectivity. Supports 1000+ concurrent sensor connections.",
+    title: "Speckle Denoising using SA-PRIDENet ",
+    description: "Building the best neural network model for denoising the speckle noise in medical ultra sound images",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-    tags: ["ARM Cortex-A53", "Linux 5.15", "LoRaWAN", "MQTT"],
-    duration: "2022 - 8 months",
+    tags: ["AI", "Neural Network", "Deep Learning", "Denoise"],
+    duration: "2024 - 6 months",
     color: "deep-purple"
   },
   {
@@ -91,10 +91,10 @@ export const PROJECTS = [
 
 export const EXPERIENCES = [
   {
-    title: "Senior Firmware Engineer",
-    company: "TechWave Solutions",
-    period: "2021 - Present",
-    description: "Lead development of next-generation WiFi 6E and 7 firmware solutions for enterprise networking products. Managed a team of 5 engineers and delivered 3 major product releases ahead of schedule.",
+    title: "Firmware Development Engineer",
+    company: "Qualcomm Technologies Pvt. Ltd",
+    period: "2025 - Present",
+    description: "Development of next-generation WiFi 6E and 7 firmware solutions.",
     achievements: [
       "Architected high-performance WiFi driver supporting 10Gbps throughput",
       "Implemented advanced beamforming algorithms for improved signal quality",
@@ -105,9 +105,9 @@ export const EXPERIENCES = [
     color: "electric-blue"
   },
   {
-    title: "Embedded Systems Engineer",
-    company: "ConnectDev Inc.",
-    period: "2019 - 2021",
+    title: "Embedded Software Engineer",
+    company: "Maxlinear Technologies",
+    period: "2022 - 2025",
     description: "Developed IoT gateway solutions and mesh networking protocols for smart city applications. Specialized in ultra-low power embedded systems and wireless communication.",
     achievements: [
       "Built custom bootloader supporting secure OTA updates",
@@ -119,9 +119,9 @@ export const EXPERIENCES = [
     color: "cyber-cyan"
   },
   {
-    title: "Junior Firmware Developer",
-    company: "EmbeddedTech Corp",
-    period: "2017 - 2019",
+    title: "Software Engineer Trainee",
+    company: "Qubercomm Technologies",
+    period: "2021 - 2022",
     description: "Started career focusing on ARM Cortex-M microcontrollers and real-time systems. Contributed to automotive and industrial control applications.",
     achievements: [
       "Developed CAN bus communication protocols",

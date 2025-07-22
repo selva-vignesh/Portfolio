@@ -32,6 +32,10 @@ const FloatingIcon = ({
 export function Hero() {
   const handleDownloadResume = () => {
     // TODO: Implement resume download functionality
+     window.open(
+    "https://drive.google.com/file/d/1wjLmAQDzHxUD9jRA9trkfEBLvBRwNFv8/view?usp=sharing",
+    "_blank"
+  );
     console.log("Download resume")
   }
 
@@ -114,33 +118,16 @@ export function Hero() {
             <div className="relative">
               <motion.div
                 className="w-80 h-80 rounded-full bg-gradient-to-br from-electric-blue via-cyber-cyan to-deep-purple p-1 shadow-2xl"
-                animate={{ rotate: 360 }}
-                transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+                animate={{ y: [-5, 5, -5] }}
+                transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
               >
                 <div className="w-full h-full rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center overflow-hidden">
                   {/* Professional placeholder using SVG */}
-                  <svg
-                    viewBox="0 0 400 400"
-                    className="w-full h-full"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <defs>
-                      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stopColor="#1e40af" />
-                        <stop offset="50%" stopColor="#06b6d4" />
-                        <stop offset="100%" stopColor="#7c3aed" />
-                      </linearGradient>
-                    </defs>
-                    <rect width="400" height="400" fill="url(#bg)" opacity="0.1" />
-                    {/* Professional silhouette */}
-                    <circle cx="200" cy="140" r="60" fill="url(#bg)" opacity="0.3" />
-                    <path d="M120 280 Q200 240 280 280 L280 400 L120 400 Z" fill="url(#bg)" opacity="0.3" />
-                    {/* Tech elements */}
-                    <circle cx="150" cy="100" r="8" fill="#1e40af" opacity="0.4" />
-                    <circle cx="250" cy="120" r="6" fill="#06b6d4" opacity="0.4" />
-                    <circle cx="180" cy="320" r="10" fill="#7c3aed" opacity="0.4" />
-                    <rect x="220" y="300" width="15" height="15" fill="#1e40af" opacity="0.4" />
-                  </svg>
+                  <img
+                    src="https://i.ibb.co/LXB51qyc/picofme-23.png"
+                      alt="Profile"
+                      className="w-full h-full object-cover rounded-full"
+                    />
                 </div>
               </motion.div>
               
@@ -150,14 +137,14 @@ export function Hero() {
                 animate={{ y: [-5, 5, -5] }}
                 transition={{ duration: 3, repeat: Infinity }}
               >
-                WiFi Expert
+                WiFi Dev
               </motion.div>
               <motion.div
                 className="absolute -bottom-4 -left-4 bg-cyber-cyan text-white px-3 py-1 rounded-full text-sm font-medium shadow-lg"
                 animate={{ y: [5, -5, 5] }}
-                transition={{ duration: 3, repeat: Infinity, delay: 1.5 }}
+                transition={{ duration: 7, repeat: Infinity, delay: 1 }}
               >
-                Linux Dev
+                Linux Guy
               </motion.div>
             </div>
           </motion.div>

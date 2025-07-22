@@ -11,7 +11,7 @@ export function Footer() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          © 2024 Alex Chen. Built with modern web technologies and passion for embedded systems.
+          © 2024 Selva Vignesh. Built with modern web technologies and passion for embedded systems.
         </motion.p>
         <motion.div 
           className="mt-4 flex justify-center space-x-6"
